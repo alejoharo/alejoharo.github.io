@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html, body{
+   margin:0;
+   padding:0;
+   height:100%;
+   width:100%;
+}
+
+header{
+	background: #04409E ;
+	width: 100%;
+	height: 56px;
+	position: fixed;
+	top:0;
+	left:0;
+	z-index: 100;
+	opacity: 0.90;
+}
+
+nav{
+	float: right;
+	padding: 35px 20px 20px 0;
+}
+
+ul{
+	list-style: none;
+}
+nav ul li{
+	display:inline-block;
+	float:left;
+	padding:10px;
+    margin-top:-40px;
+    font-size:150%;
+    font-family: 'Oswald', sans-serif;
+}
+.current{
+	color:#FFF;
+	text-decoration: underline;
+}
+.intro{
+    height:100%;
+    width: 100%;
+    margin:auto;
+    background:url(https://static.pexels.com/photos/26206/pexels-photo.jpg) no-repeat 50% 50%;
+    display: table;
+    top:0;
+    background-size: cover;
+}
+.intro .inner{
+    display: table-cell;
+    vertical-align: middle;
+    width:100%;
+    max-width: none;
+}
+.content{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.content h1{
+    font-family: 'Raleway', sans-serif;
+    color:#F9F3F4;
+    text-shadow: 0px 0px 300px #000;
+    font-size: 500%;
+}
+.button{
+    border:solid #036A81 3px;
+    border-radius: 9px;
+    font-family: 'Oswald',sans-serif;
+    color:#036A81;
+    font-size: 135%;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase; 
+}
+
+.button:hover{
+    color:#fff;
+    border:solid #fff 3px;
+    }
+
+.subtitles{
+    font-family: 'Oswald',sans-serif;
+    color:#fff;
+    position: relative;
+    left:25px;
+    font-size: 200%;
+    margin-left: 600px;
+    font-size:300%;
+}
+    
+.background{
+    background-color: #0A9CC0;
+    display: table;
+}
+.background2{
+   background-color:#EA9616;
+   display: table;
+}
+
+.description{
+    width:90%;
+    text-align:center;
+    text-align: justify;
+    padding: 10px;
+    margin-left: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 150%;
+    color:#313337;
+}
+
+.sectionfooter{
+	width: 29%;
+	float: left;
+	margin:2% 2%;
+	text-align: center;
+}
+.clear{
+	clear: both;
+}
+.justify{
+	text-align: justify;
+}
+
+ul.gym li{
+	padding-left:3%;
+}
+footer{
+	background:#333333;
+	width:100%;
+	overflow: hidden;
+	opacity: 0.9;
+}
+footer p, footer h3{
+	color:#FFF;
+}
+ul.social li{
+	display: inline;
+}
+ul.social li img{
+	height: 50px;
+}
+footer.second{
+	border-top:1px solid #4D4E50;
+	background-color: #333333;
+	max-height: 50px;
+	text-align: center;
+	opacity: 0.95;
+}
+.sectionfooter{
+   width: 29%;
+	float: left;
+	margin:2% 2%;
+	text-align: center;
+}
+img{
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+#doc{
+	margin:40px 0;
+}
+#contenido {
+	margin:0 auto;
+	max-width: 1140px;
+   
+}
+.blueberry{
+	max-width:960px;
+	margin-top:110px;
+}
+
+.projects{
+   font-family: 'Raleway',sans-serif;
+    color:#fff;
+    position:relative;
+    left:25px;
+    font-size: 150%;
+    margin-left: 0px;
+    text-decoration: underline;
+}
+
+.descriptionpro{
+    color: #1A0878;
+    width:40%;
+    text-align:center;
+    text-align: justify;
+    padding: 10px;
+    margin-left: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 150%;
+    float: left;
+}
+.descriptionpro1{
+    color: #313337;
+    width:40%;
+    text-align:center;
+    text-align: justify;
+    padding: 10px;
+    margin-left: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 150%;
+    float: left;
+}
+
+.robot{
+   float: right;
+   display: inline;
+   width:40%;
+   height: 300px;
+   margin-right: 100px;
+   margin-top:45px;
+}
+.projects2{
+   font-family: 'Raleway',sans-serif;
+    color:#fff;
+    margin-top: 40px;
+    margin-left:0%;
+    font-size: 150%;
+    text-decoration: underline;
+    text-align: left;
+}
+
+    
+@media screen and(max-width:760px){
+    .content h1{
+        font-size:50%;
+        }
+    .button{
+        font-size:110%;
+        padding:7px 15px;
+    }
+    p{
+        font-size:100%;
+        line-height: 160;
+
+    }
+}
+
+
